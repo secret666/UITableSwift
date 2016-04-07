@@ -29,7 +29,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //
 //        let arr = [nav,nav2,nav3]
 //        tabbar.viewControllers = arr;
-        self.window?.rootViewController = tabbar
+        self.window?.rootViewController = tabbar;
+        
+        print("1.0版本");
         
         
         
